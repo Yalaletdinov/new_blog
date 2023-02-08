@@ -1,0 +1,64 @@
+.newForm {
+    position: fixed;   
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+    background-color:white;
+    width: 400px;
+    padding: 15px;
+    border-radius: 10px;
+    min-height: 300px;
+  
+}
+.newForm__btn {
+    border-radius: 10px;
+    background-color:black;
+    color: white;
+    padding: 5px;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+    
+}
+
+
+.newForm input{
+    margin-top: 10px;
+    padding: 5px;
+    min-height: 40px;
+    width: 100%;
+    
+   
+
+}
+
+.newForm input:invalid{
+    color:red;
+    border-color: red;
+    outline: none;
+    border: 2px solid red;
+
+}
+.newForm textarea{
+    padding: 8px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    width: 100%;
+    min-height: 120px;
+}
+.newForm textarea:invalid{
+    color:red;
+    border-color: red;
+    outline: none;
+    border: 2px solid red;
+    
+}
+
+
+.newForm__descr:focus::placeholder {
+    color:transparent;
+}
+.newForm__title:focus::placeholder {
+    color: transparent;
+}

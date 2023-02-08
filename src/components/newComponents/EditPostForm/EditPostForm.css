@@ -1,0 +1,72 @@
+.editNewForm {
+    position: fixed;   
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+    background-color:white;
+    width: 400px;
+    padding: 15px;
+    border-radius: 10px;
+    min-height: 320px;
+}
+.editNewForm__btn {
+    border-radius: 10px;
+    background-color:black;
+    color: white;
+    padding: 5px;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+    
+    
+}
+
+.editNewForm p {
+    text-align: center;
+}
+.editNewForm input{
+    margin-top: 10px;
+    padding: 5px;
+    width: 100%;
+    min-height: 40px;
+   
+
+}
+.editNewForm input:invalid{
+    color:red;
+    border-color: red;
+    outline: none;
+    border: 2px solid red;
+   
+
+}
+.editNewForm textarea{
+    padding: 8px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    width: 100%;
+    min-height: 150px;
+}
+.editNewForm textarea:invalid {
+    color:red;
+    border-color: red;
+    outline: none;
+    border: 2px solid red;
+    
+}
+
+.editNewForm__descr:focus::placeholder {
+    color:transparent;
+}
+.edirNewForm__title:focus::placeholder {
+    color: transparent;
+}
+.editCloseForm__btn {
+    background-color:white;
+    position: absolute;
+    top: 2px;
+    right: 5px;
+    border: none;
+    cursor: pointer;
+}

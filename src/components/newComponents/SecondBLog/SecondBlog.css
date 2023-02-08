@@ -1,0 +1,30 @@
+
+
+
+.newBlog__btn {
+    border-radius: 15px;
+    display: block;
+    margin: 0 auto;
+    background-color:black;
+    color:white;
+    padding: 5px 10px ;
+    margin-top: 10px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+
+.myPost {
+    display: block;
+    margin: 0 auto;
+} 
+    
+    
+
+
+
+
+
+
+
+

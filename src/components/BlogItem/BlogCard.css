@@ -1,0 +1,48 @@
+.post {
+    position: relative;
+    margin: 10px;
+    border: 2px solid black;
+    width: 400px;
+    min-height: 300px;
+
+}
+.post h2 {
+    margin-right: 30px;
+    padding-left: 10px;
+    
+    font-size: 15px;
+}
+.post p {
+    margin-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 15px;
+}
+.editBtn {
+    top: 150px;
+    right: 0;;
+    position: absolute;
+    background-color:transparent;
+    border: none;
+    cursor: pointer;
+    color: red;   
+}
+.editBtn svg:hover{
+    font-size: 28px;
+    
+    
+}
+.delete {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: transparent;
+    border: none;
+    color: red;
+    cursor: pointer;
+}
+.delete svg:hover {
+    font-size: 28px;
+   
+}

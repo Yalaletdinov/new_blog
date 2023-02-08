@@ -1,0 +1,54 @@
+.myPost { 
+    margin-top: 30px;
+    margin-bottom: 30px;
+    min-height: 150px;
+    max-width: 1000px
+}
+.myPost h4{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    
+}
+.myPost p{
+    
+    margin-bottom: 15px;
+}
+.myPost__line {
+    border:1px solid gray;
+    max-width: 1000px;
+
+}
+
+.delmyPost__btn{
+   
+    background-color:aqua;
+    color:black;
+    font-size: 12px;
+    cursor: pointer;
+    font-size: 12px;
+    padding: 5px;
+    border: 1px solid grey;
+    margin-bottom: 20px;
+}
+.delmyPost__btn:hover{
+    color:white;
+    background-color:black
+}
+   
+.updatemyPost__btn {
+    margin-left: 10px;
+    background-color:aqua;
+    border:none;
+    color:black;
+    cursor: pointer;
+    border: 1px solid grey;
+    padding: 5px;
+}
+.updatemyPost__btn:hover {
+    color:white;
+    background-color:black
+   
+} 
+
+
+
